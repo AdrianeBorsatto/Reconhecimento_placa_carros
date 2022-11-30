@@ -1,0 +1,3 @@
+# Reconhecimento_placa_carros:
+Foi utilizada uma imagem de uma placa de carro atual no Brasil, disponível na internet, apartir disso foi selecionado a região da mesma, e feito alguns procedimentos como alteração de cor para cinza, construir as bordas e selecionar a região retangular da qual faz parte;
+Com auxílio do OpenCV, tesseract, pytesseract, github do mesmo para selação da língua, com treinado em português, o regex para remoção do BR presente nas placas padronizadas do Brasil, e melhor exatidão da leitura de números e letras, outras bibliotecas também foram utilizadas para fazer o reconhecimneto da placa.
